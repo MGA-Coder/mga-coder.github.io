@@ -1,0 +1,407 @@
+body{
+  background-color: #42BBDE;
+}
+
+.no-border{border: 0 none !important;}
+p,h1,h2,h3,h4,h5,h6,span,a,div{font-family: 'Roboto', sans-serif;}
+
+/* main content */
+#main-site{
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  margin: 50px;
+}
+@media (max-width: 540px) {
+  #main-site{
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 720px) {
+  #main-site{
+    margin: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #main-site{
+    margin: 30px;
+  }
+}
+/* main content */
+
+/* start information & avatar section */
+#main-site .info {
+  padding: 20px !important;
+}
+#main-site .info .avatar{
+  margin-bottom: 20px;
+  overflow: hidden
+}
+#main-site .info .avatar img{
+  max-height: 300px;
+}
+#main-site .info h2{
+  font-size: 25px
+}
+#main-site .info h4{
+  font-size: 18px;
+  color: #888;
+}
+#main-site .info p {
+  margin-top: 15px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #555;
+}
+#main-site .info a{
+  border: 1px solid #eeeeee;
+  padding: 5px 14px;
+  color: #333333;
+  transition: all .5s ease-in-out;
+}
+#main-site .info a:hover{
+  background-color: #42BBDE;
+  color: #FFF;
+}
+#main-site .info .row .col{
+  margin: 0;
+  padding: 0;
+}
+
+@media  (min-width:577px ) and (max-width: 991px) {
+  #main-site .info .avatar img{
+    width: auto !important;
+  }
+}
+/* end information & avatar section */
+
+/* start right side area */
+.right-side{
+  border-left: 1px solid #DDD
+}
+/* start navbar section */
+.top-links{
+    padding: 20px;
+    background-color: #FFF;
+    z-index: 2;
+}
+.top-links .btn{
+  font-size: 13px;
+  border-radius: 0
+}
+/* end navbar section */
+
+/* start portfolio */
+.portfolio{
+  padding: 30px 40px 0 40px;
+}
+.portfolio .main_content h1{
+  color: #42bbde;
+  font-weight: 700;
+  font-size: 30px;
+}
+.portfolio .main_content h1 small{
+  color: #999;
+  font-size: 15px;
+  display: block;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+
+.portfolio .main_content .item{
+  margin-bottom: 50px;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 50px;
+}
+
+.portfolio .main_content .item h3{
+  letter-spacing: 2px;
+  color: #007bff;
+  font-size: 20px;
+}
+.portfolio .main_content .item h3 small{
+  color: #999;
+  font-size: 15px;
+  display: block;
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.portfolio .main_content .item p{
+  color: #777;
+  font-size: 15px;
+}
+
+/* end portfolio */
+
+/* start expertise section */
+.expertise{
+  padding: 70px 40px 20px 40px;
+}
+.expertise .section-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #bebece;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.expertise h3{
+  font-size: 19px;
+  font-weight: 700;
+  color: #555;
+}
+.expertise p{
+  line-height: 20px;
+  color: #999;
+  margin-bottom: 40px
+}
+
+@media (max-width: 540px) {
+  .expertise{
+    padding: 35px 40px 20px 40px;
+    border-width: 1px 0 0 0;
+  }
+}
+
+/* end expertise section */
+
+/* start skills section */
+.skills{
+  padding: 50px 40px;
+  border-top: 1px solid #DDD;
+}
+.skills .section-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #bebece;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.skills .section-title span{
+  font-size: 13px;
+  font-weight: 400;
+  color: #bebece !important;
+}
+.skills .tools{
+  width: 96%;
+  margin: 0 auto;
+}
+
+.progress{
+  border-radius: 0
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+
+}
+.skill > p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000c1982;
+  margin: 0;
+  text-transform: uppercase;
+}
+.skill-bar {
+  width: 100%;
+  height: 3px;
+  display: block;
+  position: relative;
+}
+
+/* SKILLs */
+.skill .progress{
+  overflow: initial;
+  height: 8px;
+}
+.skill .progress-bar{
+  position: relative;
+}
+.skill .progress-bar span{
+  position: absolute;
+  top: -29px;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #077fff;
+  right: 0;
+  display: block;
+  padding: 2px 7px;
+  border-radius: 4px 4px 0 0;
+}
+
+.skill .progress-bar span::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    border-top: 6px solid #077fff;
+    border-left: 8px solid transparent;
+}
+
+/* end skills section */
+
+
+
+/* start Work Experience section */
+.work-experience{
+  padding: 70px 40px 20px 40px;
+  border-top: 1px solid #DDD;
+}
+.work-experience .section-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #bebece;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.work-experience .jobs{
+  padding-left: 16px;
+}
+
+.work-experience .jobs {
+    margin-bottom: 50px;
+}
+
+.work-experience .jobs p {
+    margin: 0;
+    color: #999;
+    font-style: italic;
+}
+
+.work-experience .jobs h3 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.work-experience .jobs h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+.work-experience .jobs h6 {
+    color: #9e9a9a;
+    font-size: 13px;
+    font-style: italic;
+}
+/* end Work Experience */
+
+/* start education section */
+.education{
+  padding: 70px 40px 20px 40px;
+  border-top: 1px solid #DDD;
+}
+.education .section-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #bebece;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.education .item{
+  padding-left: 16px;
+}
+
+.education .item {
+    margin-bottom: 50px;
+}
+
+.education .item p {
+    margin: 0;
+    color: #999;
+    font-style: italic;
+}
+
+.education .item h3 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.education .item h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+.education .item h6 {
+    color: #9e9a9a;
+    font-size: 13px;
+    font-style: italic;
+}
+/* end education */
+
+
+/* start contact section */
+.contact{
+  padding: 70px 40px 20px 40px;
+  border-top: 1px solid #DDD;
+}
+.contact .section-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #bebece;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.contact .item{
+  padding-left: 15px;
+}
+
+.contact .item {
+    margin-bottom: 50px;
+}
+
+.contact .item h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 700;
+}
+
+.contact .item h4 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+.contact .form{
+  padding-left: 15px;
+}
+
+.contact .form p{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact .form .form-group label{
+  font-weight: 700;
+}
+.contact .form input.form-control{
+  padding: 10px;
+  height: 50px;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+
+/* end contact */
+
+
+/* start footer */
+.footer{
+  padding: 25px 0 10px 53px;
+  border-top: 1px solid #DDD;
+}
+.footer .section-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #bebece;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.footer i{
+    color: red;
+}
+/* end footer */
